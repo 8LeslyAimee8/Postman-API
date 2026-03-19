@@ -1,18 +1,20 @@
-Name: API-Testing
+API-Testing
+Description: This is a Postman collection designed to validate the API instructions for creating a new kit on a web platform. Key test cases include: 
 
-Description: this is a Postman collection gallery.It contains the API instructions to create a new kit for a web page.
-The test cases included:
-   * Kit names with lengths less than 10 characters, more than 10, and within the required range.
-   * The kit name does not accept empty spaces.
-   * The kit name only accepts Spanish characters.
-   * Special characters are not allowed.
-   * Emojis are not allowed.
-There are more than 20 test cases in total.
+* Boundary Testing: Kit names with lengths under 10 characters, over 10 characters, and within the required range.
 
-Method:
+* Whitespace Validation: Ensuring kit names do not accept empty spaces.
 
-Tools:
+* Character Set: Validating that only Spanish characters are accepted.
 
-Result:
+* Negative Testing: Confirming that special characters and emojis are not allowed.
+
+Comprehensive Coverage: More than 20 test cases in total.
+
+Methodology: Based on the provided requirements, I developed multiple test cases for kit creation, focusing on character limits, language constraints, and special characters. Each test was executed in Postman using valid API requests from the documentation. All identified bugs were documented and tracked in JIRA.
+
+Tools: Postman, Web Browser, JIRA.
+
+Results: While most test cases passed successfully, all identified defects were documented in JIRA for further resolution.
    
   
